@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="anySuiteName">
+
+	<listeners>
+		<listener class-name="com.deena.TestNGLearn.Listners.MyCustomListner"></listener>
+	</listeners>
+	
+	<test name="any test name1" enabled="true">
+		<classes>
+			<class name="com.deena.TestNGLearn.YahooTest"></class>
+		</classes>
+	</test>
+	
+	<test name="any test name2" enabled="false">
+		<classes>
+			<class name="com.deena.TestNGLearn.YahooNewsTest"></class>
+			<class name="com.deena.TestNGLearn.YahooTest"></class>
+			<class name="com.deena.TestNGLearn.YahooRegistrationTest"></class>
+		</classes>
+	</test>
+	
+	<test name="any test name 3" enabled="false">
+		<classes>
+			<class name="com.deena.TestNGLearn.YahooRegistrationTest"></class>		
+		</classes>
+	</test>
+
+</suite>
