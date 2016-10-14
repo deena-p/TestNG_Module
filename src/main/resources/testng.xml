@@ -12,8 +12,9 @@
 	</listeners>
 	
 	<suite-files>
-		<suite-file path="src/main/resources/Suite1.xml"></suite-file>
-		<suite-file path="src/main/resources/Suite2.xml"></suite-file>
+		<!-- <suite-file path="src/main/resources/Suite1.xml"></suite-file>
+		<suite-file path="src/main/resources/Suite2.xml"></suite-file> -->
+		<suite-file path="src/main/resources/Suite3.xml"></suite-file>
 	</suite-files>
 	
 

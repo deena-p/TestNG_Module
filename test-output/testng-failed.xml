@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite2]">
-  <listeners>
-    <listener class-name="com.deena.customreports.MyCustomReporter"/>
-    <listener class-name="com.deena.TestNGLearn.Listners.MyCustomListner"/>
-    <listener class-name="com.deena.TestNGLearn.Listners.MyCustomListner2"/>
-    <listener class-name="com.deena.TestNGLearn.Listners.MyCustomListner3"/>
-  </listeners>
-  <test name="any test name 3">
-    <classes>
-      <class name="com.deena.TestNGLearn.YahooRegistrationTest"/>
-    </classes>
-  </test> <!-- any test name 3 -->
-  <test name="any test name 4">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [suite3_anyName]">
+  <test name="test2_anyTestSuite3">
     <classes>
       <class name="com.deena.TestNGLearn.YahooNewsTest"/>
+      <class name="com.deena.TestNGLearn.YahooRegistrationTest"/>
     </classes>
-  </test> <!-- any test name 4 -->
-</suite> <!-- Failed suite [Suite2] -->
+  </test> <!-- test2_anyTestSuite3 -->
+</suite> <!-- Failed suite [suite3_anyName] -->

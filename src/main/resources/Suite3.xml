@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="suite3_anyName">
+	<test name="test1_anyTestSuite3" enabled="false">
+		<classes>
+			<class name="com.deena.TestNGLearn.YahooTest"></class>
+			<class name="com.deena.TestNGLearn.YahooNewsTest"></class>
+		</classes>
+	</test>
+
+	<test name="test2_anyTestSuite3">
+		<classes>
+			<class name="com.deena.TestNGLearn.YahooNewsTest"></class>
+			<class name="com.deena.TestNGLearn.YahooRegistrationTest"></class>
+		</classes>
+	</test>
+
+</suite>
