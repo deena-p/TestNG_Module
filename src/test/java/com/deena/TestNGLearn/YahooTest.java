@@ -1,7 +1,6 @@
 package com.deena.TestNGLearn;
 
 import org.testng.Assert;
-import org.testng.SkipException;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -11,81 +10,88 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
-public class YahooTest {
-	
-	
-  @Test
-  public void test1() {
-	  System.out.println("This is test1");
-  }
-  
-  @Test
-  public void test2() {
-	  System.out.println("This is test2");
-  }
-  
-  @Test
-  public void test3() {
-	  System.out.println("This is test3========================================");
-	  //throw new SkipException("This is for testing purpoose");
-	  
-  }
-  
-  @Test
-  public void test4() {
-	  System.out.println("This is test4-----------------------------------------");
-	  try{
-		  Assert.assertEquals("test4", "test4");
-	  }catch(Throwable t){
-		  t.printStackTrace();
-	  }
-	  System.out.println("Test4 ends");
-  }
-  
-  @Test(enabled = false)
-  public void test5() {
-	  System.out.println("This is test5");
-  }
-  
-  @BeforeMethod
-  public void beforeMethod() {
-	  System.out.println("This is before method");
-  }
+//@Test(testName="yahoo_test")
+public class YahooTest{
 
-  @AfterMethod
-  public void afterMethod() {
-	  System.out.println("This is after method");
-  }
+	SoftAssert softAssert = new SoftAssert();
 
-  @BeforeClass
-  public void beforeClass() {
-	  System.out.println("This is before yahootest class");
-  }
+	@Test(testName="test1_test")
+	public void test1() {
+		System.out.println("This is test1");
+	}
 
-  @AfterClass
-  public void afterClass() {
-	  System.out.println("This is after yahootest class");
-  }
+	@Test(testName="test2_test")
+	public void test2() {
+		System.out.println("This is test2");
+	}
 
-  @BeforeTest
-  public void beforeTest() {
-	  System.out.println("This is before each test");
-  }
+	@Test(testName="test3_test")
+	public void test3() {
+		System.out.println("This is test3========================================");
+		//throw new SkipException("This is for testing purpoose");
 
-  @AfterTest
-  public void afterTest() {
-	  System.out.println("This is after each test");
-  }
+	}
 
-  @BeforeSuite
-  public void beforeSuite() {
-	  System.out.println("This is before suite");
-  }
+	@Test(testName="test4_test")
+	public void test4() {
+		System.out.println("This is test4-----------------------------------------");
+		softAssert.assertEquals("test4", "test3");
+		try{
+			Assert.assertEquals("test4", "test4");
+		}catch(Throwable t){
+			t.printStackTrace();
+		}
+		System.out.println("Test4 ends*********************************************");
+		softAssert.assertAll();
+	}
 
-  @AfterSuite
-  public void afterSuite() {
-	  System.out.println("This is after suite");
-  }
+	@Test(enabled = false)
+	public void test5() {
+		softAssert.assertEquals("test4", "test3");
+		System.out.println("This is test5");
+		softAssert.assertAll();
+	}
+
+	@BeforeMethod
+	public void beforeMethod() {
+		System.out.println("This is before method");
+	}
+
+	@AfterMethod
+	public void afterMethod() {
+		System.out.println("This is after method");
+	}
+
+	@BeforeClass
+	public void beforeClass() {
+		System.out.println("This is before yahootest class");
+	}
+
+	@AfterClass
+	public void afterClass() {
+		System.out.println("This is after yahootest class");
+	}
+
+	@BeforeTest
+	public void beforeTest() {
+		System.out.println("This is before each test");
+	}
+
+	@AfterTest
+	public void afterTest() {
+		System.out.println("This is after each test");
+	}
+
+	@BeforeSuite
+	public void beforeSuite() {
+		System.out.println("This is before suite");
+	}
+
+	@AfterSuite
+	public void afterSuite() {
+		System.out.println("This is after suite");
+	}
 
 }

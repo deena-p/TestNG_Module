@@ -11,8 +11,9 @@
       <class name="com.deena.TestNGLearn.YahooTest">
         <methods>
           <include name="beforeClass"/>
+          <include name="test4"/>
           <include name="beforeMethod"/>
-          <include name="test3"/>
+          <include name="test5"/>
           <include name="afterTest"/>
           <include name="afterClass"/>
           <include name="beforeSuite"/>

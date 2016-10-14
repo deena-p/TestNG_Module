@@ -1,29 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [anySuiteName]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite2]">
   <listeners>
+    <listener class-name="com.deena.customreports.MyCustomReporter"/>
     <listener class-name="com.deena.TestNGLearn.Listners.MyCustomListner"/>
+    <listener class-name="com.deena.TestNGLearn.Listners.MyCustomListner2"/>
+    <listener class-name="com.deena.TestNGLearn.Listners.MyCustomListner3"/>
   </listeners>
-  <test name="any test name1">
+  <test name="any test name 3">
     <classes>
-      <class name="com.deena.TestNGLearn.YahooTest"/>
+      <class name="com.deena.TestNGLearn.YahooRegistrationTest"/>
     </classes>
-  </test> <!-- any test name1 -->
-  <test name="any test name1(failed)">
+  </test> <!-- any test name 3 -->
+  <test name="any test name 4">
     <classes>
-      <class name="com.deena.TestNGLearn.YahooTest">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeMethod"/>
-          <include name="test3"/>
-          <include name="afterTest"/>
-          <include name="afterClass"/>
-          <include name="beforeSuite"/>
-          <include name="beforeTest"/>
-          <include name="afterMethod"/>
-          <include name="afterSuite"/>
-        </methods>
-      </class> <!-- com.deena.TestNGLearn.YahooTest -->
+      <class name="com.deena.TestNGLearn.YahooNewsTest"/>
     </classes>
-  </test> <!-- any test name1(failed) -->
-</suite> <!-- Failed suite [anySuiteName] -->
+  </test> <!-- any test name 4 -->
+</suite> <!-- Failed suite [Suite2] -->

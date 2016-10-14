@@ -1,56 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" total="4" passed="3">
+<testng-results skipped="0" failed="1" total="23" passed="22">
   <reporter-output>
   </reporter-output>
-  <suite name="anySuiteName" duration-ms="39" started-at="2016-08-06T02:20:16Z" finished-at="2016-08-06T02:20:16Z">
+  <suite name="Suite1" duration-ms="48" started-at="2016-08-25T14:01:17Z" finished-at="2016-08-25T14:01:17Z">
     <groups>
     </groups>
-    <test name="any test name1" duration-ms="39" started-at="2016-08-06T02:20:16Z" finished-at="2016-08-06T02:20:16Z">
+    <test name="any test name1" duration-ms="48" started-at="2016-08-25T14:01:17Z" finished-at="2016-08-25T14:01:17Z">
       <class name="com.deena.TestNGLearn.YahooTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.deena.TestNGLearn.YahooTest@6a2bcfcb]" name="beforeSuite" is-config="true" duration-ms="8" started-at="2016-08-06T07:50:16Z" finished-at="2016-08-06T07:50:16Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.deena.TestNGLearn.YahooTest@1810399e]" name="beforeSuite" is-config="true" duration-ms="16" started-at="2016-08-25T19:31:17Z" finished-at="2016-08-25T19:31:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.deena.TestNGLearn.YahooTest@6a2bcfcb]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-08-06T07:50:16Z" finished-at="2016-08-06T07:50:16Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.deena.TestNGLearn.YahooTest@1810399e]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-08-25T19:31:17Z" finished-at="2016-08-25T19:31:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.deena.TestNGLearn.YahooTest@6a2bcfcb]" name="beforeClass" is-config="true" duration-ms="1" started-at="2016-08-06T07:50:16Z" finished-at="2016-08-06T07:50:16Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.deena.TestNGLearn.YahooTest@1810399e]" name="beforeClass" is-config="true" duration-ms="1" started-at="2016-08-25T19:31:17Z" finished-at="2016-08-25T19:31:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.deena.TestNGLearn.YahooTest@6a2bcfcb]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-08-06T07:50:16Z" finished-at="2016-08-06T07:50:16Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.deena.TestNGLearn.YahooTest@1810399e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-08-25T19:31:17Z" finished-at="2016-08-25T19:31:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:com.deena.TestNGLearn.YahooTest@6a2bcfcb]" name="test1" duration-ms="6" started-at="2016-08-06T07:50:16Z" finished-at="2016-08-06T07:50:16Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.deena.TestNGLearn.YahooTest@1810399e]" name="test1" duration-ms="6" started-at="2016-08-25T19:31:17Z" finished-at="2016-08-25T19:31:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.deena.TestNGLearn.YahooTest@6a2bcfcb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-08-06T07:50:16Z" finished-at="2016-08-06T07:50:16Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.deena.TestNGLearn.YahooTest@1810399e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-08-25T19:31:17Z" finished-at="2016-08-25T19:31:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:com.deena.TestNGLearn.YahooTest@6a2bcfcb]" name="test2" duration-ms="2" started-at="2016-08-06T07:50:16Z" finished-at="2016-08-06T07:50:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.deena.TestNGLearn.YahooTest@6a2bcfcb]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-08-06T07:50:16Z" finished-at="2016-08-06T07:50:16Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.deena.TestNGLearn.YahooTest@1810399e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-08-25T19:31:17Z" finished-at="2016-08-25T19:31:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.deena.TestNGLearn.YahooTest@6a2bcfcb]" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-08-06T07:50:16Z" finished-at="2016-08-06T07:50:16Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.deena.TestNGLearn.YahooTest@1810399e]" name="test2" duration-ms="1" started-at="2016-08-25T19:31:17Z" finished-at="2016-08-25T19:31:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.deena.TestNGLearn.YahooTest@1810399e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-08-25T19:31:17Z" finished-at="2016-08-25T19:31:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="SKIP" signature="test3()[pri:0, instance:com.deena.TestNGLearn.YahooTest@6a2bcfcb]" name="test3" duration-ms="2" started-at="2016-08-06T07:50:16Z" finished-at="2016-08-06T07:50:16Z">
-          <exception class="org.testng.SkipException">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.deena.TestNGLearn.YahooTest@1810399e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-08-25T19:31:17Z" finished-at="2016-08-25T19:31:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.deena.TestNGLearn.YahooTest@1810399e]" name="test3" duration-ms="1" started-at="2016-08-25T19:31:17Z" finished-at="2016-08-25T19:31:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.deena.TestNGLearn.YahooTest@1810399e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-08-25T19:31:17Z" finished-at="2016-08-25T19:31:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="test4()[pri:0, instance:com.deena.TestNGLearn.YahooTest@1810399e]" name="test4" duration-ms="9" started-at="2016-08-25T19:31:17Z" finished-at="2016-08-25T19:31:17Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[This is for testing purpoose]]>
+              <![CDATA[The following asserts failed:
+	expected [test3] but found [test4]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.SkipException: This is for testing purpoose
-	at com.deena.TestNGLearn.YahooTest.test3(YahooTest.java:31)
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+	expected [test3] but found [test4]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.deena.TestNGLearn.YahooTest.test4(YahooTest.java:47)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -70,6 +85,7 @@
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1240)
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 	at org.testng.TestNG.run(TestNG.java:1064)
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
@@ -77,43 +93,445 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.deena.TestNGLearn.YahooTest@6a2bcfcb]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-08-06T07:50:16Z" finished-at="2016-08-06T07:50:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.deena.TestNGLearn.YahooTest@6a2bcfcb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-08-06T07:50:16Z" finished-at="2016-08-06T07:50:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.deena.TestNGLearn.YahooTest@6a2bcfcb]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-08-06T07:50:16Z" finished-at="2016-08-06T07:50:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test4()[pri:0, instance:com.deena.TestNGLearn.YahooTest@6a2bcfcb]" name="test4" duration-ms="7" started-at="2016-08-06T07:50:16Z" finished-at="2016-08-06T07:50:16Z">
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4 -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.deena.TestNGLearn.YahooTest@6a2bcfcb]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-08-06T07:50:16Z" finished-at="2016-08-06T07:50:16Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.deena.TestNGLearn.YahooTest@1810399e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-08-25T19:31:17Z" finished-at="2016-08-25T19:31:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.deena.TestNGLearn.YahooTest@6a2bcfcb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-08-06T07:50:16Z" finished-at="2016-08-06T07:50:16Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.deena.TestNGLearn.YahooTest@1810399e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-08-25T19:31:17Z" finished-at="2016-08-25T19:31:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.deena.TestNGLearn.YahooTest@6a2bcfcb]" name="afterTest" is-config="true" duration-ms="1" started-at="2016-08-06T07:50:16Z" finished-at="2016-08-06T07:50:16Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.deena.TestNGLearn.YahooTest@1810399e]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-08-25T19:31:17Z" finished-at="2016-08-25T19:31:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.deena.TestNGLearn.YahooTest@1810399e]" name="afterTest" is-config="true" duration-ms="1" started-at="2016-08-25T19:31:17Z" finished-at="2016-08-25T19:31:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.deena.TestNGLearn.YahooTest@6a2bcfcb]" name="afterSuite" is-config="true" duration-ms="1" started-at="2016-08-06T07:50:16Z" finished-at="2016-08-06T07:50:16Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.deena.TestNGLearn.YahooTest@1810399e]" name="afterSuite" is-config="true" duration-ms="0" started-at="2016-08-25T19:31:17Z" finished-at="2016-08-25T19:31:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.deena.TestNGLearn.YahooTest -->
     </test> <!-- any test name1 -->
+  </suite> <!-- Suite1 -->
+  <suite name="anySuiteName" duration-ms="0" started-at="2016-08-25T14:01:17Z" finished-at="2016-08-25T14:01:17Z">
+    <groups>
+    </groups>
   </suite> <!-- anySuiteName -->
+  <suite name="Suite2" duration-ms="216" started-at="2016-08-25T14:01:17Z" finished-at="2016-08-25T14:01:17Z">
+    <groups>
+    </groups>
+    <test name="any test name 3" duration-ms="188" started-at="2016-08-25T14:01:17Z" finished-at="2016-08-25T14:01:17Z">
+      <class name="com.deena.TestNGLearn.YahooRegistrationTest">
+        <test-method status="PASS" signature="registration_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.deena.TestNGLearn.YahooRegistrationTest@7c16905e]" name="registration_test" duration-ms="2" started-at="2016-08-25T19:31:17Z" data-provider="regData" finished-at="2016-08-25T19:31:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sachin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sachin@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration_test -->
+        <test-method status="PASS" signature="registration_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.deena.TestNGLearn.YahooRegistrationTest@7c16905e]" name="registration_test" duration-ms="3" started-at="2016-08-25T19:31:17Z" data-provider="regData" finished-at="2016-08-25T19:31:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Saurav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[saurav@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kolkata]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration_test -->
+        <test-method status="PASS" signature="registration_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.deena.TestNGLearn.YahooRegistrationTest@7c16905e]" name="registration_test" duration-ms="1" started-at="2016-08-25T19:31:17Z" data-provider="regData" finished-at="2016-08-25T19:31:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dhoni]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dhoni@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration_test -->
+        <test-method status="PASS" signature="registration_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.deena.TestNGLearn.YahooRegistrationTest@7c16905e]" name="registration_test" duration-ms="1" started-at="2016-08-25T19:31:17Z" data-provider="regData" finished-at="2016-08-25T19:31:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rahul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rahul@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Banglore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration_test -->
+        <test-method status="PASS" signature="registration_test1(java.lang.String, java.lang.String)[pri:0, instance:com.deena.TestNGLearn.YahooRegistrationTest@7c16905e]" name="registration_test1" duration-ms="1" started-at="2016-08-25T19:31:17Z" data-provider="commonData" finished-at="2016-08-25T19:31:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sachin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration_test1 -->
+        <test-method status="PASS" signature="registration_test1(java.lang.String, java.lang.String)[pri:0, instance:com.deena.TestNGLearn.YahooRegistrationTest@7c16905e]" name="registration_test1" duration-ms="1" started-at="2016-08-25T19:31:17Z" data-provider="commonData" finished-at="2016-08-25T19:31:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Saurav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration_test1 -->
+        <test-method status="PASS" signature="registration_test2(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.deena.TestNGLearn.YahooRegistrationTest@7c16905e]" name="registration_test2" duration-ms="1" started-at="2016-08-25T19:31:17Z" data-provider="commonData" finished-at="2016-08-25T19:31:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sachin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sachin@test.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration_test2 -->
+        <test-method status="PASS" signature="registration_test2(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.deena.TestNGLearn.YahooRegistrationTest@7c16905e]" name="registration_test2" duration-ms="2" started-at="2016-08-25T19:31:17Z" data-provider="commonData" finished-at="2016-08-25T19:31:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Saurav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[saurav@test.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration_test2 -->
+        <test-method status="PASS" signature="registration_test3(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.deena.TestNGLearn.YahooRegistrationTest@7c16905e]" name="registration_test3" duration-ms="2" started-at="2016-08-25T19:31:17Z" data-provider="commonData" finished-at="2016-08-25T19:31:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sachin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sachin@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration_test3 -->
+        <test-method status="PASS" signature="registration_test3(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.deena.TestNGLearn.YahooRegistrationTest@7c16905e]" name="registration_test3" duration-ms="2" started-at="2016-08-25T19:31:17Z" data-provider="commonData" finished-at="2016-08-25T19:31:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Saurav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[saurav@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kolkata]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration_test3 -->
+        <test-method status="PASS" signature="registration_test3(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.deena.TestNGLearn.YahooRegistrationTest@7c16905e]" name="registration_test3" duration-ms="1" started-at="2016-08-25T19:31:17Z" data-provider="commonData" finished-at="2016-08-25T19:31:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dhoni]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dhoni@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration_test3 -->
+        <test-method status="PASS" signature="registration_test3(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.deena.TestNGLearn.YahooRegistrationTest@7c16905e]" name="registration_test3" duration-ms="1" started-at="2016-08-25T19:31:17Z" data-provider="commonData" finished-at="2016-08-25T19:31:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rahul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rahul@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Banglore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration_test3 -->
+        <test-method status="PASS" signature="registration_test3(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.deena.TestNGLearn.YahooRegistrationTest@7c16905e]" name="registration_test3" duration-ms="1" started-at="2016-08-25T19:31:17Z" data-provider="commonData" finished-at="2016-08-25T19:31:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sachin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sachin@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration_test3 -->
+        <test-method status="PASS" signature="registration_test3(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.deena.TestNGLearn.YahooRegistrationTest@7c16905e]" name="registration_test3" duration-ms="2" started-at="2016-08-25T19:31:17Z" data-provider="commonData" finished-at="2016-08-25T19:31:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Saurav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[saurav@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kolkata]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration_test3 -->
+        <test-method status="PASS" signature="registration_test3(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.deena.TestNGLearn.YahooRegistrationTest@7c16905e]" name="registration_test3" duration-ms="1" started-at="2016-08-25T19:31:17Z" data-provider="commonData" finished-at="2016-08-25T19:31:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dhoni]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dhoni@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration_test3 -->
+        <test-method status="PASS" signature="registration_test3(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.deena.TestNGLearn.YahooRegistrationTest@7c16905e]" name="registration_test3" duration-ms="3" started-at="2016-08-25T19:31:17Z" data-provider="commonData" finished-at="2016-08-25T19:31:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rahul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rahul@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Banglore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration_test3 -->
+      </class> <!-- com.deena.TestNGLearn.YahooRegistrationTest -->
+    </test> <!-- any test name 3 -->
+    <test name="any test name 4" duration-ms="6" started-at="2016-08-25T14:01:17Z" finished-at="2016-08-25T14:01:17Z">
+      <class name="com.deena.TestNGLearn.YahooNewsTest">
+        <test-method status="PASS" signature="News_Test1()[pri:1, instance:com.deena.TestNGLearn.YahooNewsTest@1593948d]" name="News_Test1" duration-ms="1" started-at="2016-08-25T19:31:17Z" finished-at="2016-08-25T19:31:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- News_Test1 -->
+        <test-method status="PASS" signature="News_Test2()[pri:2, instance:com.deena.TestNGLearn.YahooNewsTest@1593948d]" name="News_Test2" duration-ms="1" started-at="2016-08-25T19:31:17Z" finished-at="2016-08-25T19:31:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- News_Test2 -->
+        <test-method status="PASS" signature="News_Test3()[pri:3, instance:com.deena.TestNGLearn.YahooNewsTest@1593948d]" name="News_Test3" duration-ms="0" started-at="2016-08-25T19:31:17Z" depends-on-methods="com.deena.TestNGLearn.YahooNewsTest.News_Test2, com.deena.TestNGLearn.YahooNewsTest.News_Test1" finished-at="2016-08-25T19:31:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- News_Test3 -->
+      </class> <!-- com.deena.TestNGLearn.YahooNewsTest -->
+    </test> <!-- any test name 4 -->
+  </suite> <!-- Suite2 -->
 </testng-results>

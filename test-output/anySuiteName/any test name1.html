@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>any test name1</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Aug 06 07:50:16 IST 2016</td>
+<td>Started on:</td><td>Thu Aug 25 19:09:50 IST 2016</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (39 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (50 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,43 +67,23 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
-<tr>
-<td title='com.deena.TestNGLearn.YahooTest.test1()'><b>test1</b><br>Test class: com.deena.TestNGLearn.YahooTest</td>
-<td></td>
-<td>0</td>
-<td>com.deena.TestNGLearn.YahooTest@6a2bcfcb</td></tr>
-<tr>
-<td title='com.deena.TestNGLearn.YahooTest.test2()'><b>test2</b><br>Test class: com.deena.TestNGLearn.YahooTest</td>
-<td></td>
-<td>0</td>
-<td>com.deena.TestNGLearn.YahooTest@6a2bcfcb</td></tr>
 <tr>
 <td title='com.deena.TestNGLearn.YahooTest.test4()'><b>test4</b><br>Test class: com.deena.TestNGLearn.YahooTest</td>
-<td></td>
-<td>0</td>
-<td>com.deena.TestNGLearn.YahooTest@6a2bcfcb</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.deena.TestNGLearn.YahooTest.test3()'><b>test3</b><br>Test class: com.deena.TestNGLearn.YahooTest</td>
-<td><div><pre>org.testng.SkipException: This is for testing purpoose
-	at com.deena.TestNGLearn.YahooTest.test3(YahooTest.java:31)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1597249648", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1597249648'><pre>org.testng.SkipException: This is for testing purpoose
-	at com.deena.TestNGLearn.YahooTest.test3(YahooTest.java:31)
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [test3] but found [test4]
+	at com.deena.TestNGLearn.YahooTest.test4(YahooTest.java:47)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1225439493", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1225439493'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [test3] but found [test4]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.deena.TestNGLearn.YahooTest.test4(YahooTest.java:47)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -130,7 +110,30 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
 </pre></div></td>
 <td>0</td>
-<td>com.deena.TestNGLearn.YahooTest@6a2bcfcb</td></tr>
+<td>com.deena.TestNGLearn.YahooTest@548b7f67</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.deena.TestNGLearn.YahooTest.test1()'><b>test1</b><br>Test class: com.deena.TestNGLearn.YahooTest</td>
+<td></td>
+<td>0</td>
+<td>com.deena.TestNGLearn.YahooTest@548b7f67</td></tr>
+<tr>
+<td title='com.deena.TestNGLearn.YahooTest.test2()'><b>test2</b><br>Test class: com.deena.TestNGLearn.YahooTest</td>
+<td></td>
+<td>0</td>
+<td>com.deena.TestNGLearn.YahooTest@548b7f67</td></tr>
+<tr>
+<td title='com.deena.TestNGLearn.YahooTest.test3()'><b>test3</b><br>Test class: com.deena.TestNGLearn.YahooTest</td>
+<td></td>
+<td>0</td>
+<td>com.deena.TestNGLearn.YahooTest@548b7f67</td></tr>
 </table><p>
 </body>
 </html>

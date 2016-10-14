@@ -2,7 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [anySuiteName]">
   <listeners>
+    <listener class-name="com.deena.customreports.MyCustomReporter"/>
     <listener class-name="com.deena.TestNGLearn.Listners.MyCustomListner"/>
+    <listener class-name="com.deena.TestNGLearn.Listners.MyCustomListner2"/>
+    <listener class-name="com.deena.TestNGLearn.Listners.MyCustomListner3"/>
   </listeners>
   <test name="any test name1">
     <classes>
@@ -14,8 +17,8 @@
       <class name="com.deena.TestNGLearn.YahooTest">
         <methods>
           <include name="beforeClass"/>
+          <include name="test4"/>
           <include name="beforeMethod"/>
-          <include name="test3"/>
           <include name="afterTest"/>
           <include name="afterClass"/>
           <include name="beforeSuite"/>
