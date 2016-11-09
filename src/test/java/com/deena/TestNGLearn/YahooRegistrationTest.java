@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class YahooRegistrationTest {
 	
-	@Test(testName="Yahoo Reg. Test",dataProviderClass=YahooNewsRegTestDataProvider.class,dataProvider="regData", enabled=false)
+	@Test( testName="Yahoo Reg. Test",dataProviderClass=YahooNewsRegTestDataProvider.class,dataProvider="regData", enabled=false)
 	public void registration_test(String username, String password, String email, String city){
 		System.out.println("Username is: " + username);
 		System.out.println(username + " password is: " + password);
